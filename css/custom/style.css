@@ -1,0 +1,104 @@
+@font-face{
+    font-family: 'yekan';
+    src: url(../../font/Yekan.ttf);
+}
+
+body{
+    font-family:  'yekan';
+}
+.navbar {
+    background-color: #002d4b;
+    color: #fff;
+    height: 7em;
+}
+.navbar a {
+    color: #fff;
+  
+}
+
+.navbar .navbar-item:hover {
+    background-color: #10354e;
+    color: #fff;
+    height: 7em;
+}
+
+.home-right{
+    padding-top: 10em;
+    padding-right: 7em;
+}
+
+.home-right h1{
+    color: #fff;
+    width: 30em;
+    padding-top: 2em;
+    
+}
+
+.home-right a{
+    color: #fff;
+    font-size: 17px;
+    
+}
+
+
+.namads{
+    
+    margin-top: 2em;
+    background-color: rgba(242, 242, 242, 0.76);
+    width: 40em ;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.namads img{
+    padding-left: 3em;
+}
+
+
+.services{
+    background-color: rgb(240, 240, 240);
+}
+
+.balls{
+    display: flex;
+    flex-direction: row;
+    color: white;
+   
+   
+}
+
+.ball-subtitle{
+    text-align: center;
+    direction: rtl;
+    padding-top: 1em;
+    
+}
+
+.ball{
+    margin-left: 35%;
+    color: white;
+    background: #0E3461;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-right: 7em; */
+}
+
+.even {
+    margin-top: 10em;
+}
+
+.service-two{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../../images/building.jpg);
+    margin-top: .7em;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center;
+    width: 100%;
+    color:white
+    
+}
