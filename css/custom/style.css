@@ -6,6 +6,17 @@
 body{
     font-family:  'yekan';
 }
+
+.navbar .navbar-item{
+    background-color: #002d4b;
+}
+
+@media screen and (max-width: 1023px){
+.navbar-menu {
+    background-color: #002d4b;
+    box-shadow: 0 8px 16px rgba(10,10,10,.1);
+    padding: .5rem 0;
+}}
 .navbar {
     background-color: #002d4b;
     color: #fff;
@@ -101,4 +112,60 @@ body{
     width: 100%;
     color:white
     
+}
+
+.moshaver{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.moshaver h1{
+    padding-top: 2em;
+}
+
+.notification{
+    width: 30em;
+    height: 17em;
+    margin-left: .5em;
+    top:12em
+    
+}
+
+.notifi{
+    float: left;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    margin: 1em;
+    margin-top: 2em;
+}
+
+.icons span{
+    display: flex;
+    justify-content: center;
+    margin-left: 1em;
+    align-items: center;
+    color: white;
+}
+
+.icons h1{
+    margin-left: 1em;
+}
+
+.icons span:hover{
+    display: flex;
+    justify-content: center;
+    margin-left: 1em;
+    align-items: center;
+    color: rgb(58, 58, 255);
+
 }
